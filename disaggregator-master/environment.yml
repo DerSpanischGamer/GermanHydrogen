@@ -1,0 +1,25 @@
+name: disaggregator
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  
+  - numpy
+  - pandas
+  - pytables
+  - pyyaml
+  - requests
+  
+  - geopandas
+  - descartes
+  - xarray
+  - xlrd
+  
+  - matplotlib
+  - holidays
+  
+  # Jupyter Environment
+  - jupyterlab
+  - notebook
+  - ipython

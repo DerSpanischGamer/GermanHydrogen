@@ -1,0 +1,34 @@
+Name;Owner;Process;Production;Latitude;Longitude
+Hamburg;ArcelorMittal Hamburg;Electric;1775000;53.522946;9.901014
+Bremen;ArcelorMittal Bremen;High furnace;1775000;53.136062;8.688878
+Lingen;Benteler;Electric;640000;52.468026;7.319669
+Gröditz;Georgsmarienhütte Holding;Electric;400000;51.407337;13.44391
+Salzgitter;Saltzgitter;Electric;3375000;52.160712;10.414922
+Brandenburg;Brandenburger Elektrostahlwerk;Electric;1050000;52.402289;12.504616
+Hennigsdorf;Hennigsdorfer Elektrostahlwerk;Electric;1050000;52.653569;13.215205
+Eisenhüttenstadt;ArcelorMittal Eisenhüttenstadt;High furnace;1775000;52.173491;14.617972
+Duisburg 1;Thyssenkrupp Steel Europe;High furnace;11000000;51.493106;6.749804
+Duisburg 2;HKM;High furnace;4520000;51.366639;6.70613
+Duisburg 3;ArcelorMittal Duisburg;High furnace;1775000;51.463588;6.74645
+Siegen 1;Deutsche Edelstahlwerke;Electric;200000;50.912927;8.015636
+Siegen 2;BGH Edelstahl;Electric;42500;50.909342;8.062067
+Wetzlar;Buderus Edelstahl;Electric;350000;50.574341;8.485456
+Unterwellenborn;Stahlwerk Thürigen;Electric;;;
+Riesa;ESF Elbe-Stahlwerke Feralpi;Electric;1000000;51.313226;13.277542
+Freital;BGH Edelstahl;Electric;42500;50.995882;13.640486
+Dillingen;Dillinger Hüttenwerke;High furnace;2280000;49.357434;6.745811
+Völklingen;Saarstahl;High furnace;2640000;49.2442;6.852506
+Kehl;Badische Stahlwerke;Electric;2100000;48.598572;7.822335
+Herbertshofen;Lech-Stahlwerke;Electric;1130000;48.517074;10.851322
+Hanau;Übrige Stahlstandorte;Electric;;;
+Georgsmarienhütte;Georgsmarienhütte Holding;Electric;400000;52.207752;8.053884
+Bous;Georgsmarienhütte Holding;Electric;400000;49.277337;6.786469
+Wiehl;Übrige Stahlstandorte;Electric;;;
+Engelskirchen;Übrige Stahlstandorte;Electric;;;
+Witten 1;Deutsche Edelstahlwerke;Electric;200000;51.433212;7.327031
+Witten 2;Übrige Stahlstandorte;Electric;;;
+Peine;Salzgitter;Electric;3375000;52.315364;10.24885
+Werdohl;Übrige Stahlstandorte;Electric;;;
+Krefeld;Deutsche Edelstahlwerke;Electric;200000;51.303908;6.544874
+Hagen;Deutsche Edelstahlwerke;Electric;200000;51.360307;7.458448
+Hattingen;Deutsche Edelstahlwerke;Electric;200000;51.416409;7.193076

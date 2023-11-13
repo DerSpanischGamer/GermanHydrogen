@@ -1,0 +1,4546 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.702463999999999,
+                51.219587
+            ]
+        },
+        "properties": {
+            "name": "Allmenhausen",
+            "id": "INET_SR_6",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.234552108008367,
+                "max_cap_store2pipe_M_m3_per_d": 1.4516003326223395,
+                "max_cushionGas_M_m3": 236.0,
+                "max_power_MW": 12.418951221140587,
+                "max_storage_pressure_bar": 36.0,
+                "max_workingGas_M_m3": 60.52733508146482,
+                "min_storage_pressure_bar": 8.200945062501301,
+                "num_storage_wells": 10,
+                "nuts_id_1": "DEG",
+                "nuts_id_2": "DEG0",
+                "nuts_id_3": "DEG09",
+                "start_year": 1996
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 4.017038745397664,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 9.788491364276295,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 14.32408913436779,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_diameter_mm)",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_diameter_mm)",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Lasso(max_storage_pressure_bar, Pipe_diameter_mm)",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.827835,
+                51.41773900000001
+            ]
+        },
+        "properties": {
+            "name": "Bad Lauchstaedt",
+            "id": "INET_SR_9",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 47.23484491128,
+                "max_cap_store2pipe_M_m3_per_d": 32.27868388632,
+                "max_cushionGas_M_m3": 121.0,
+                "max_power_MW": 20.0,
+                "max_storage_pressure_bar": 150.0,
+                "max_workingGas_M_m3": 23.477,
+                "min_storage_pressure_bar": 15.0,
+                "num_storage_wells": 18,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0B",
+                "start_year": 1975
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.224641,
+                52.513276
+            ]
+        },
+        "properties": {
+            "name": "Berlin",
+            "id": "INET_SR_14",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.8152248875099914,
+                "max_cap_store2pipe_M_m3_per_d": 5.269749086307765,
+                "max_cushionGas_M_m3": 305.0,
+                "max_power_MW": 6.7,
+                "max_storage_pressure_bar": 128.0,
+                "max_workingGas_M_m3": 146.47966992825425,
+                "min_storage_pressure_bar": 60.0,
+                "num_storage_wells": 14,
+                "nuts_id_1": "DE4",
+                "nuts_id_2": "DE40",
+                "nuts_id_3": "DE300",
+                "start_year": 1992
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.759217,
+                51.750252
+            ]
+        },
+        "properties": {
+            "name": "Bernburg",
+            "id": "INET_SR_15",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 12.672,
+                "max_cap_store2pipe_M_m3_per_d": 36.72,
+                "max_cushionGas_M_m3": 116.0,
+                "max_power_MW": 15.0,
+                "max_storage_pressure_bar": 100.0,
+                "max_workingGas_M_m3": 876.0,
+                "min_storage_pressure_bar": 10.0,
+                "num_storage_wells": 27,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0C",
+                "start_year": 1974
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.419398,
+                48.121349
+            ]
+        },
+        "properties": {
+            "name": "Bierwang",
+            "id": "INET_SR_17",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 23.64788905508393,
+                "max_cap_store2pipe_M_m3_per_d": 30.738736740499718,
+                "max_cushionGas_M_m3": 1157.0,
+                "max_power_MW": 21.9,
+                "max_storage_pressure_bar": 161.0,
+                "max_workingGas_M_m3": 886.7958395656474,
+                "min_storage_pressure_bar": 52.0,
+                "num_storage_wells": 44,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE21M",
+                "start_year": 1975
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.421018,
+                47.918836
+            ]
+        },
+        "properties": {
+            "name": "Breitbrunn",
+            "id": "INET_SR_21",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 5.911972263770982,
+                "max_cap_store2pipe_M_m3_per_d": 12.299013727309276,
+                "max_cushionGas_M_m3": 151.0,
+                "max_power_MW": 23.06456376500813,
+                "max_storage_pressure_bar": 80.0,
+                "max_workingGas_M_m3": 977.4108906323752,
+                "min_storage_pressure_bar": 30.0,
+                "num_storage_wells": 36,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE21K",
+                "start_year": 1996
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.461452,
+                51.205171
+            ]
+        },
+        "properties": {
+            "name": "Bruggraf Bernsdorf",
+            "id": "INET_SR_22",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.52,
+                "max_cap_store2pipe_M_m3_per_d": 1.008,
+                "max_cushionGas_M_m3": 1.8,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 36.7,
+                "max_workingGas_M_m3": 63.15921973300726,
+                "min_storage_pressure_bar": 12.3,
+                "num_storage_wells": 1,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE08",
+                "start_year": 1970
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 309.06376795905015,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_diameter_mm)",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.917839,
+                52.176629999999996
+            ]
+        },
+        "properties": {
+            "name": "Buchholz",
+            "id": "INET_SR_25",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": 2023,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 1.488,
+                "max_cap_store2pipe_M_m3_per_d": 3.6959999999999997,
+                "max_cushionGas_M_m3": 200.0,
+                "max_power_MW": 2.15,
+                "max_storage_pressure_bar": 95.1,
+                "max_workingGas_M_m3": 169.0,
+                "min_storage_pressure_bar": 50.0,
+                "num_storage_wells": 8,
+                "nuts_id_1": "DE4",
+                "nuts_id_2": "DE40",
+                "nuts_id_3": "DE40E",
+                "start_year": 2001
+            },
+            "uncertainty": {
+                "end_year": 0,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": "raw",
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.400699000000001,
+                53.194261
+            ]
+        },
+        "properties": {
+            "name": "Elsfleth_EWE",
+            "id": "INET_SR_43",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94G",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.650892,
+                52.339624
+            ]
+        },
+        "properties": {
+            "name": "Empelde",
+            "id": "INET_SR_44",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 3.888529375873176,
+                "max_cap_store2pipe_M_m3_per_d": 12.386989505043964,
+                "max_cushionGas_M_m3": 37.0,
+                "max_power_MW": 3.93,
+                "max_storage_pressure_bar": 203.0,
+                "max_workingGas_M_m3": 271.14134697830605,
+                "min_storage_pressure_bar": 30.0,
+                "num_storage_wells": 3,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE92",
+                "nuts_id_3": "DE929",
+                "start_year": 1982
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_Eneco",
+            "id": "INET_SR_46",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 8.234532795966725,
+                "max_cap_store2pipe_M_m3_per_d": 8.234532795966725,
+                "max_cushionGas_M_m3": 1.0,
+                "max_power_MW": 10.028864903697988,
+                "max_storage_pressure_bar": 210.01957373391667,
+                "max_workingGas_M_m3": 126.26283620482313,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 9.71022258807255,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 20000.0,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "log_replaced by M_Heuristics.adjust_AttribValues()",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_EON",
+            "id": "INET_SR_47",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.183248231284377,
+                "max_cap_store2pipe_M_m3_per_d": 10.457680699322271,
+                "max_cushionGas_M_m3": 57.25308433801955,
+                "max_power_MW": 12.229834832738398,
+                "max_storage_pressure_bar": 210.77441617378503,
+                "max_workingGas_M_m3": 256.8892709852867,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 10.273698659386987,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2020
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_innogy_H",
+            "id": "INET_SR_48",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 6.747742152250511,
+                "max_cap_store2pipe_M_m3_per_d": 20.955830256402496,
+                "max_cushionGas_M_m3": 153.0884667102244,
+                "max_power_MW": 14.967706235578943,
+                "max_storage_pressure_bar": 211.71339380473657,
+                "max_workingGas_M_m3": 419.3805324612541,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 12.93454549713735,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 1990
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_innogy_L",
+            "id": "INET_SR_49",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 4.249230064585393,
+                "max_cap_store2pipe_M_m3_per_d": 8.498460129170786,
+                "max_cushionGas_M_m3": 1.7495063610041512,
+                "max_power_MW": 10.64418186055728,
+                "max_storage_pressure_bar": 210.23060222043966,
+                "max_workingGas_M_m3": 162.7815815424918,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 9.777117254235721,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_innogy_NL",
+            "id": "INET_SR_50",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.161254286850705,
+                "max_cap_store2pipe_M_m3_per_d": 10.398736928240032,
+                "max_cushionGas_M_m3": 60.693195789712675,
+                "max_power_MW": 12.328113595060179,
+                "max_storage_pressure_bar": 210.80812175956308,
+                "max_workingGas_M_m3": 262.7220650490965,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 10.258758850610546,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2006
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_KGE",
+            "id": "INET_SR_51",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 3.6070068871221768,
+                "max_cap_store2pipe_M_m3_per_d": 9.624550084174784,
+                "max_cushionGas_M_m3": 51.0,
+                "max_power_MW": 11.1,
+                "max_storage_pressure_bar": 229.0,
+                "max_workingGas_M_m3": 194.5672300380343,
+                "min_storage_pressure_bar": 70.0,
+                "num_storage_wells": 5,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_Nuon",
+            "id": "INET_SR_52",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.477941107448415,
+                "max_cap_store2pipe_M_m3_per_d": 12.457370127231712,
+                "max_cushionGas_M_m3": 78.94187146935776,
+                "max_power_MW": 12.849450558990346,
+                "max_storage_pressure_bar": 210.9869189619484,
+                "max_workingGas_M_m3": 293.66314607838603,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 10.780537246683274,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2007
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_Trianel",
+            "id": "INET_SR_53",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.293191974205572,
+                "max_cap_store2pipe_M_m3_per_d": 14.577586370637674,
+                "max_cushionGas_M_m3": 24.590186014628742,
+                "max_power_MW": 11.296705407677154,
+                "max_storage_pressure_bar": 210.45439104185,
+                "max_workingGas_M_m3": 201.50851890130116,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 11.317924398194073,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2008
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_Uniper_H",
+            "id": "INET_SR_54",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 29.137577585728412,
+                "max_cap_store2pipe_M_m3_per_d": 41.27823491311525,
+                "max_cushionGas_M_m3": 763.8509387747738,
+                "max_power_MW": 32.416262966946576,
+                "max_storage_pressure_bar": 217.69753332500218,
+                "max_workingGas_M_m3": 1454.9434121762577,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.085434791701452,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 1976
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_Uniper_L",
+            "id": "INET_SR_55",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 7.240406507564759,
+                "max_cap_store2pipe_M_m3_per_d": 24.826764476728737,
+                "max_cushionGas_M_m3": 118.27225578886573,
+                "max_power_MW": 13.973059938174499,
+                "max_storage_pressure_bar": 211.372270907948,
+                "max_workingGas_M_m3": 360.34878560127896,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 13.915667267530512,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 1976
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0286839999999975,
+                52.17597
+            ]
+        },
+        "properties": {
+            "name": "Epe_ZES",
+            "id": "INET_SR_56",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 19.41927954986727,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 209.62185464456107,
+                "max_workingGas_M_m3": 27.724762013635626,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA3",
+                "nuts_id_3": "DEA34",
+                "start_year": 2020
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 211.7158281886742,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 304.8203880306052,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Lasso(max_power_MW, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "Lasso(max_power_MW, Pipe_max_cap_M_m3_per_d)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.643294000000001,
+                49.581091
+            ]
+        },
+        "properties": {
+            "name": "Eschenfelden",
+            "id": "INET_SR_57",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 96.0,
+                "max_power_MW": 6.4,
+                "max_storage_pressure_bar": 46.0,
+                "max_workingGas_M_m3": 24.28131465477368,
+                "min_storage_pressure_bar": 26.0,
+                "num_storage_wells": 12,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE23",
+                "nuts_id_3": "DE234",
+                "start_year": 1976
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.912085,
+                53.461064
+            ]
+        },
+        "properties": {
+            "name": "Etzel_Crystal",
+            "id": "INET_SR_59",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.75069199767311,
+                "max_cap_store2pipe_M_m3_per_d": 8.278520684834069,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 212.98935789567778,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.912085,
+                53.461064
+            ]
+        },
+        "properties": {
+            "name": "Etzel_EGL_1_2",
+            "id": "INET_SR_60",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 17.815094991274165,
+                "max_cap_store2pipe_M_m3_per_d": 31.77685091776903,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 1015.9442812801683,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 1993
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.912085,
+                53.461064
+            ]
+        },
+        "properties": {
+            "name": "Etzel_EKB",
+            "id": "INET_SR_61",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 10.926591594648155,
+                "max_cap_store2pipe_M_m3_per_d": 19.425051723818942,
+                "max_cushionGas_M_m3": 281.0,
+                "max_power_MW": 12.6,
+                "max_storage_pressure_bar": 170.0,
+                "max_workingGas_M_m3": 732.486325419006,
+                "min_storage_pressure_bar": 60.0,
+                "num_storage_wells": 9,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.912085,
+                53.461064
+            ]
+        },
+        "properties": {
+            "name": "Etzel_ESE",
+            "id": "INET_SR_62",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 37.60084740380532,
+                "max_cap_store2pipe_M_m3_per_d": 34.899991027350424,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 1156.3536225447292,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.912085,
+                53.461064
+            ]
+        },
+        "properties": {
+            "name": "Etzel_IVG",
+            "id": "INET_SR_63",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 2020
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.394883,
+                49.56398400000001
+            ]
+        },
+        "properties": {
+            "name": "Frankenthal",
+            "id": "INET_SR_65",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 2.3401556877426803,
+                "max_cushionGas_M_m3": 110.0,
+                "max_power_MW": 1.5,
+                "max_storage_pressure_bar": 69.0,
+                "max_workingGas_M_m3": 78.12249062840228,
+                "min_storage_pressure_bar": 45.0,
+                "num_storage_wells": 10,
+                "nuts_id_1": "DEB",
+                "nuts_id_2": "DEB3",
+                "nuts_id_3": "DEB31",
+                "start_year": 1979
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.414961,
+                47.851208
+            ]
+        },
+        "properties": {
+            "name": "Fronhofen",
+            "id": "INET_SR_66",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 9.783134749321679,
+                "max_cap_store2pipe_M_m3_per_d": 15.155906906899205,
+                "max_cushionGas_M_m3": 53.0,
+                "max_power_MW": 1.0,
+                "max_storage_pressure_bar": 178.0,
+                "max_workingGas_M_m3": 11.674385705392998,
+                "min_storage_pressure_bar": 70.0,
+                "num_storage_wells": 4,
+                "nuts_id_1": "DE1",
+                "nuts_id_2": "DE14",
+                "nuts_id_3": "DE148",
+                "start_year": 1997
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 4.76214144053632,
+                "max_cap_store2pipe_M_m3_per_d": 5.6490512251248655,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_workingGas_M_m3, Pipe_max_pressure_bar)",
+                "max_cap_store2pipe_M_m3_per_d": "Lasso(max_cap_pipe2store_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.553427000000001,
+                49.756057
+            ]
+        },
+        "properties": {
+            "name": "Haehnlein",
+            "id": "INET_SR_77",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 1.4340051770754019,
+                "max_cap_store2pipe_M_m3_per_d": 2.384143576610024,
+                "max_cushionGas_M_m3": 80.0,
+                "max_power_MW": 3.96,
+                "max_storage_pressure_bar": 54.0,
+                "max_workingGas_M_m3": 79.53010307215727,
+                "min_storage_pressure_bar": 34.0,
+                "num_storage_wells": 18,
+                "nuts_id_1": "DE7",
+                "nuts_id_2": "DE71",
+                "nuts_id_3": "DE717",
+                "start_year": 1960
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.482867,
+                53.435469
+            ]
+        },
+        "properties": {
+            "name": "Harsefeld",
+            "id": "INET_SR_82",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.164204132273306,
+                "max_cap_store2pipe_M_m3_per_d": 7.187621040923947,
+                "max_cushionGas_M_m3": 46.0,
+                "max_power_MW": 10.0,
+                "max_storage_pressure_bar": 220.0,
+                "max_workingGas_M_m3": 111.11340727890997,
+                "min_storage_pressure_bar": 40.0,
+                "num_storage_wells": 2,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE93",
+                "nuts_id_3": "DE939",
+                "start_year": 1992
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.400699000000001,
+                53.194261
+            ]
+        },
+        "properties": {
+            "name": "Huntorf",
+            "id": "INET_SR_92",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 8.07001809160286,
+                "max_cap_store2pipe_M_m3_per_d": 21.72649806935836,
+                "max_cushionGas_M_m3": 12.0,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 833.1306151474882,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 1,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94G",
+                "start_year": 1980
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.101388,
+                47.888103
+            ]
+        },
+        "properties": {
+            "name": "Inzenham West",
+            "id": "INET_SR_95",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.733096842126173,
+                "max_cap_store2pipe_M_m3_per_d": 7.09084768541579,
+                "max_cushionGas_M_m3": 374.0,
+                "max_power_MW": 8.8,
+                "max_storage_pressure_bar": 92.0,
+                "max_workingGas_M_m3": 419.46850823898876,
+                "min_storage_pressure_bar": 30.0,
+                "num_storage_wells": 24,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE21K",
+                "start_year": 1982
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.407857000000001,
+                53.257245
+            ]
+        },
+        "properties": {
+            "name": "Jemgum_Astora",
+            "id": "INET_SR_98",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 1.3724221326611208,
+                "max_cap_store2pipe_M_m3_per_d": 4.433979197828236,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 254.4259492087155,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94C",
+                "start_year": 2013
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.407857000000001,
+                53.257245
+            ]
+        },
+        "properties": {
+            "name": "Jemgum_EWE",
+            "id": "INET_SR_99",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.856262930954736,
+                "max_cap_store2pipe_M_m3_per_d": 6.070328663693419,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 379.39554148083874,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94C",
+                "start_year": 2013
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.407857000000001,
+                53.257245
+            ]
+        },
+        "properties": {
+            "name": "Jengum_WINGAS",
+            "id": "INET_SR_100",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94C",
+                "start_year": 2020
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.759217,
+                51.750252
+            ]
+        },
+        "properties": {
+            "name": "Katharina",
+            "id": "INET_SR_104",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 11.73440675252867,
+                "max_cap_store2pipe_M_m3_per_d": 16.669691111823376,
+                "max_cushionGas_M_m3": 105.79448432898103,
+                "max_power_MW": 9.5311664078824,
+                "max_storage_pressure_bar": 114.40538137724832,
+                "max_workingGas_M_m3": 206.39117456557628,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 13.406518540038057,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0C",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 4.76214144053632,
+                "max_cap_store2pipe_M_m3_per_d": 5.6490512251248655,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_workingGas_M_m3, Pipe_max_pressure_bar)",
+                "max_cap_store2pipe_M_m3_per_d": "Lasso(max_cap_pipe2store_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.759217,
+                51.750252
+            ]
+        },
+        "properties": {
+            "name": "Katharina",
+            "id": "INET_SR_105",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 11.73440675252867,
+                "max_cap_store2pipe_M_m3_per_d": 16.669691111823376,
+                "max_cushionGas_M_m3": 105.79448432898103,
+                "max_power_MW": 9.5311664078824,
+                "max_storage_pressure_bar": 114.40538137724832,
+                "max_workingGas_M_m3": 206.39117456557628,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 13.406518540038057,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0C",
+                "start_year": 2012
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 4.76214144053632,
+                "max_cap_store2pipe_M_m3_per_d": 5.6490512251248655,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_workingGas_M_m3, Pipe_max_pressure_bar)",
+                "max_cap_store2pipe_M_m3_per_d": "Lasso(max_cap_pipe2store_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.200844,
+                54.266597
+            ]
+        },
+        "properties": {
+            "name": "Kiel Roenne",
+            "id": "INET_SR_106",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 1.0,
+                "max_cap_store2pipe_M_m3_per_d": 1.275648777152965,
+                "max_cushionGas_M_m3": 72.0,
+                "max_power_MW": 2.3,
+                "max_storage_pressure_bar": 205.0,
+                "max_workingGas_M_m3": 24.63321776571243,
+                "min_storage_pressure_bar": 80.0,
+                "num_storage_wells": 2,
+                "nuts_id_1": "DEF",
+                "nuts_id_2": "DEF0",
+                "nuts_id_3": "DEF02",
+                "start_year": 1971
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 100.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "log_replaced by M_Heuristics.adjust_AttribValues()",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.75,
+                51.219587
+            ]
+        },
+        "properties": {
+            "name": "Kirchheilingen",
+            "id": "INET_SR_109",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 3.316686820597709,
+                "max_cap_store2pipe_M_m3_per_d": 2.96478370965896,
+                "max_cushionGas_M_m3": 2358.0,
+                "max_power_MW": 114.0,
+                "max_storage_pressure_bar": 460.0,
+                "max_workingGas_M_m3": 177.65828555742743,
+                "min_storage_pressure_bar": 90.0,
+                "num_storage_wells": 15,
+                "nuts_id_1": "DEG",
+                "nuts_id_2": "DEG0",
+                "nuts_id_3": "DEG09",
+                "start_year": 1973
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.360764999999999,
+                53.422766
+            ]
+        },
+        "properties": {
+            "name": "Kraak",
+            "id": "INET_SR_111",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.5659428644302675,
+                "max_cap_store2pipe_M_m3_per_d": 9.457396106478878,
+                "max_cushionGas_M_m3": 1500.0,
+                "max_power_MW": 19.1,
+                "max_storage_pressure_bar": 115.0,
+                "max_workingGas_M_m3": 267.9742189798573,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 90,
+                "nuts_id_1": "DE8",
+                "nuts_id_2": "DE80",
+                "nuts_id_3": "DE80O",
+                "start_year": 2000
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.041677,
+                53.358536
+            ]
+        },
+        "properties": {
+            "name": "Krummhoern",
+            "id": "INET_SR_112",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.1817992878202435,
+                "max_cap_store2pipe_M_m3_per_d": 6.862110663305604,
+                "max_cushionGas_M_m3": 56.0,
+                "max_power_MW": 5.0,
+                "max_storage_pressure_bar": 239.0,
+                "max_workingGas_M_m3": 220.46729900312621,
+                "min_storage_pressure_bar": 95.0,
+                "num_storage_wells": 3,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE947",
+                "start_year": 1977
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.716305,
+                53.162569
+            ]
+        },
+        "properties": {
+            "name": "Lesum_1",
+            "id": "INET_SR_115",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.1817992878202435,
+                "max_cap_store2pipe_M_m3_per_d": 4.574740442203736,
+                "max_cushionGas_M_m3": 30.0,
+                "max_power_MW": 3.25,
+                "max_storage_pressure_bar": 229.0,
+                "max_workingGas_M_m3": 132.57949704617366,
+                "min_storage_pressure_bar": 60.0,
+                "num_storage_wells": 1,
+                "nuts_id_1": "DE5",
+                "nuts_id_2": "DE50",
+                "nuts_id_3": "DE501",
+                "start_year": 2000
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.716305,
+                53.162569
+            ]
+        },
+        "properties": {
+            "name": "Lesum_2",
+            "id": "INET_SR_116",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 9.42797559704508,
+                "max_cap_store2pipe_M_m3_per_d": 14.60042467159196,
+                "max_cushionGas_M_m3": 36.27496471789436,
+                "max_power_MW": 7.156249388027578,
+                "max_storage_pressure_bar": 145.40538294407236,
+                "max_workingGas_M_m3": 75.87910829616774,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 13.030366858892748,
+                "nuts_id_1": "DE5",
+                "nuts_id_2": "DE50",
+                "nuts_id_3": "DE501",
+                "start_year": 2000
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 4.76214144053632,
+                "max_cap_store2pipe_M_m3_per_d": 5.6490512251248655,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_workingGas_M_m3, Pipe_max_pressure_bar)",
+                "max_cap_store2pipe_M_m3_per_d": "Lasso(max_cap_pipe2store_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": null,
+                "nuts_id_2": null,
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.560306,
+                53.994342
+            ]
+        },
+        "properties": {
+            "name": "MoeckowH",
+            "id": "INET_SR_124",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE8",
+                "nuts_id_2": "DE80",
+                "nuts_id_3": "DE80N",
+                "start_year": 2020
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.407857000000001,
+                53.257245
+            ]
+        },
+        "properties": {
+            "name": "Nuettermoor_H",
+            "id": "INET_SR_130",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 4.284420375679269,
+                "max_cap_store2pipe_M_m3_per_d": 6.123114130334231,
+                "max_cushionGas_M_m3": 260.0,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 150.0,
+                "max_workingGas_M_m3": 161.17162480994702,
+                "min_storage_pressure_bar": 35.0,
+                "num_storage_wells": 16,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94C",
+                "start_year": 1979
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.407857000000001,
+                53.257245
+            ]
+        },
+        "properties": {
+            "name": "Nuettermoor_L",
+            "id": "INET_SR_131",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 2.21740360128,
+                "max_cap_store2pipe_M_m3_per_d": 1.9958517958800002,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94C",
+                "start_year": 1979
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.942675,
+                52.801137
+            ]
+        },
+        "properties": {
+            "name": "Peckensen",
+            "id": "INET_SR_136",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.451548374128009,
+                "max_cap_store2pipe_M_m3_per_d": 20.41038043444744,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 386.56556736621576,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE04",
+                "start_year": 2002
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.809391999999999,
+                50.787905
+            ]
+        },
+        "properties": {
+            "name": "UGS_Reckrod",
+            "id": "INET_SR_143",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.428131465477368,
+                "max_cap_store2pipe_M_m3_per_d": 4.856262930954736,
+                "max_cushionGas_M_m3": 48.0,
+                "max_power_MW": 4.0,
+                "max_storage_pressure_bar": 150.0,
+                "max_workingGas_M_m3": 120.88751618523375,
+                "min_storage_pressure_bar": 60.0,
+                "num_storage_wells": 2,
+                "nuts_id_1": "DE7",
+                "nuts_id_2": "DE73",
+                "nuts_id_3": "DE732",
+                "start_year": 2001
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.482304,
+                52.616411
+            ]
+        },
+        "properties": {
+            "name": "Rehden",
+            "id": "INET_SR_144",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 30.33404816292016,
+                "max_cap_store2pipe_M_m3_per_d": 46.66235251047811,
+                "max_cushionGas_M_m3": 2800.0,
+                "max_power_MW": 88.0,
+                "max_storage_pressure_bar": 282.0,
+                "max_workingGas_M_m3": 4277.382313460494,
+                "min_storage_pressure_bar": 110.0,
+                "num_storage_wells": 16,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE92",
+                "nuts_id_3": "DE922",
+                "start_year": 1993
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.781177,
+                52.483266
+            ]
+        },
+        "properties": {
+            "name": "RuedersdorfH",
+            "id": "INET_SR_148",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 2.885605509697741,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 115.23067367689336,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE4",
+                "nuts_id_2": "DE40",
+                "nuts_id_3": "DE409",
+                "start_year": 2007
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "raw",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.644252999999999,
+                49.327473
+            ]
+        },
+        "properties": {
+            "name": "Sandhausen",
+            "id": "INET_SR_157",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 1.0908996439101217,
+                "max_cushionGas_M_m3": 110.0,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 30.351643318467097,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 2,
+                "nuts_id_1": "DE1",
+                "nuts_id_2": "DE12",
+                "nuts_id_3": "DE128",
+                "start_year": 1991
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 0,
+                "nuts_id_1": 100,
+                "nuts_id_2": 100,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num(): Estimated",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num(): Estimated",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.049472999999999,
+                47.904176
+            ]
+        },
+        "properties": {
+            "name": "Schmidhausen",
+            "id": "INET_SR_160",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.8501740869967653,
+                "max_cap_store2pipe_M_m3_per_d": 3.5190311093874893,
+                "max_cushionGas_M_m3": 158.0,
+                "max_power_MW": 2.2,
+                "max_storage_pressure_bar": 110.0,
+                "max_workingGas_M_m3": 146.83157303919302,
+                "min_storage_pressure_bar": 40.0,
+                "num_storage_wells": 7,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE21K",
+                "start_year": 1983
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 3.354599746808118,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.555702,
+                51.891723
+            ]
+        },
+        "properties": {
+            "name": "Stassfurt",
+            "id": "INET_SR_171",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.345977440846384,
+                "max_cap_store2pipe_M_m3_per_d": 13.029212682507179,
+                "max_cushionGas_M_m3": 25.0,
+                "max_power_MW": 7.5,
+                "max_storage_pressure_bar": 170.0,
+                "max_workingGas_M_m3": 542.9952977562632,
+                "min_storage_pressure_bar": 35.0,
+                "num_storage_wells": 3,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0C",
+                "start_year": 1996
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.475607,
+                49.818168
+            ]
+        },
+        "properties": {
+            "name": "Stockstadt_GasField",
+            "id": "INET_SR_173",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.1466089767263683,
+                "max_cap_store2pipe_M_m3_per_d": 3.2199134650895527,
+                "max_cushionGas_M_m3": 40.26359092512754,
+                "max_power_MW": 8.857872089413242,
+                "max_storage_pressure_bar": 282.3368300160363,
+                "max_workingGas_M_m3": 134.25103682313272,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 9.540280029922426,
+                "nuts_id_1": "DE7",
+                "nuts_id_2": "DE71",
+                "nuts_id_3": "DE717",
+                "start_year": 1969
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 131.03287785637232,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 32.79211449440784,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 7.336755185722111,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "Lasso(max_power_MW, Pipe_max_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Lasso(max_cap_store2pipe_M_m3_per_d, Pipe_max_cap_M_m3_per_d)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.475607,
+                49.818168
+            ]
+        },
+        "properties": {
+            "name": "Stockstadt_Aquifer",
+            "id": "INET_SR_174",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.16,
+                "max_cap_store2pipe_M_m3_per_d": 3.24,
+                "max_cushionGas_M_m3": 139.0,
+                "max_power_MW": 8.87049162873554,
+                "max_storage_pressure_bar": 57.0,
+                "max_workingGas_M_m3": 135.0,
+                "min_storage_pressure_bar": 29.0,
+                "num_storage_wells": 13,
+                "nuts_id_1": "DE7",
+                "nuts_id_2": "DE71",
+                "nuts_id_3": "DE717",
+                "start_year": 1969
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 6.545872381995362,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "Lasso(max_workingGas_M_m3, Pipe_max_cap_M_m3_per_d)",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.849516,
+                52.505472
+            ]
+        },
+        "properties": {
+            "name": "Uelsen",
+            "id": "INET_SR_190",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.126037996509666,
+                "max_cap_store2pipe_M_m3_per_d": 9.466193684252346,
+                "max_cushionGas_M_m3": 562.0,
+                "max_power_MW": 15.0,
+                "max_storage_pressure_bar": 198.0,
+                "max_workingGas_M_m3": 835.0660822576514,
+                "min_storage_pressure_bar": 70.0,
+                "num_storage_wells": 6,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94B",
+                "start_year": 1997
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.816447,
+                48.042629
+            ]
+        },
+        "properties": {
+            "name": "Wolfersberg",
+            "id": "INET_SR_195",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 3.334281976144646,
+                "max_cap_store2pipe_M_m3_per_d": 5.71842555275467,
+                "max_cushionGas_M_m3": 219.0,
+                "max_power_MW": 9.2,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 362.5393824668726,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 10,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE218",
+                "start_year": 1973
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.4263650000000005,
+                51.663755
+            ]
+        },
+        "properties": {
+            "name": "Xanten",
+            "id": "INET_SR_196",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 2.375345998836555,
+                "max_cap_store2pipe_M_m3_per_d": 7.601107196276978,
+                "max_cushionGas_M_m3": 30.0,
+                "max_power_MW": 7.7,
+                "max_storage_pressure_bar": 204.0,
+                "max_workingGas_M_m3": 176.61137380238463,
+                "min_storage_pressure_bar": 33.0,
+                "num_storage_wells": 8,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA1",
+                "nuts_id_3": "DEA1F",
+                "start_year": 1985
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 0,
+                "max_power_MW": 0,
+                "max_storage_pressure_bar": 0,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 0,
+                "num_storage_wells": 0,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "raw",
+                "max_power_MW": "raw",
+                "max_storage_pressure_bar": "raw",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "raw",
+                "num_storage_wells": "raw",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.3448,
+                53.84503
+            ]
+        },
+        "properties": {
+            "name": "VGS innEXpool",
+            "id": "GIE_SR_60",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 30.71367964392,
+                "max_cap_store2pipe_M_m3_per_d": 9.80767417692,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE94H",
+                "start_year": 1986
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0,
+                "max_cap_store2pipe_M_m3_per_d": 0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": 0
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": "raw"
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.4570000000000025,
+                51.38399999999999
+            ]
+        },
+        "properties": {
+            "name": "VGS storage hub",
+            "id": "GSE_SR_117",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 25.950215158400695,
+                "max_cap_store2pipe_M_m3_per_d": 43.64920851579839,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 2066.551018987803,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DEA",
+                "nuts_id_2": "DEA1",
+                "nuts_id_3": "DEA1E",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 0.0,
+                "max_cap_store2pipe_M_m3_per_d": 0.0,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 0.0,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "raw",
+                "max_cap_store2pipe_M_m3_per_d": "raw",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "raw",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                13.415014999999999,
+                52.32908
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU37",
+            "id": "Stor_EU37",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE4",
+                "nuts_id_2": "DE40",
+                "nuts_id_3": "DE40H",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.031414999999999,
+                51.15325
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU66",
+            "id": "Stor_EU66",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DEG",
+                "nuts_id_2": "DEG0",
+                "nuts_id_3": "DEG0D",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                14.42027,
+                52.226195000000004
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU92",
+            "id": "Stor_EU92",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE4",
+                "nuts_id_2": "DE40",
+                "nuts_id_3": "DE40C",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.59326,
+                48.262840000000004
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU96",
+            "id": "Stor_EU96",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE21",
+                "nuts_id_3": "DE214",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.34161,
+                53.54575
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU101",
+            "id": "Stor_EU101",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE947",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.48091,
+                49.75043
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU107",
+            "id": "Stor_EU107",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE2",
+                "nuts_id_2": "DE24",
+                "nuts_id_3": "DE246",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.0843110000000005,
+                52.62998100000001
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU109",
+            "id": "Stor_EU109",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE94",
+                "nuts_id_3": "DE949",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.15975,
+                52.36592
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU115",
+            "id": "Stor_EU115",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE91",
+                "nuts_id_3": "DE91A",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.71039,
+                53.19676
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU125",
+            "id": "Stor_EU125",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DE9",
+                "nuts_id_2": "DE93",
+                "nuts_id_3": "DE935",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.52978,
+                52.63758000000001
+            ]
+        },
+        "properties": {
+            "name": "Stor_EU126",
+            "id": "Stor_EU126",
+            "country_code": "DE",
+            "tags": {},
+            "param": {
+                "end_year": null,
+                "is_H_gas": 1,
+                "max_cap_pipe2store_M_m3_per_d": 7.26679924088518,
+                "max_cap_store2pipe_M_m3_per_d": 9.524318556971117,
+                "max_cushionGas_M_m3": 413.38655462184875,
+                "max_power_MW": 8.869195402298855,
+                "max_storage_pressure_bar": 120.25,
+                "max_workingGas_M_m3": 301.83157303919234,
+                "min_storage_pressure_bar": 57.470588235294116,
+                "num_storage_wells": 18.991150442477878,
+                "nuts_id_1": "DEE",
+                "nuts_id_2": "DEE0",
+                "nuts_id_3": "DEE0D",
+                "start_year": null
+            },
+            "uncertainty": {
+                "end_year": null,
+                "is_H_gas": 0.5,
+                "max_cap_pipe2store_M_m3_per_d": 11.78184415827171,
+                "max_cap_store2pipe_M_m3_per_d": 13.575964247285164,
+                "max_cushionGas_M_m3": 1579.6791045830093,
+                "max_power_MW": 24.051871317214957,
+                "max_storage_pressure_bar": 58.56320754716981,
+                "max_workingGas_M_m3": 677.9631468015064,
+                "min_storage_pressure_bar": 24.062698961937716,
+                "num_storage_wells": 39.814237606703706,
+                "nuts_id_1": 0,
+                "nuts_id_2": 0,
+                "nuts_id_3": 0,
+                "start_year": null
+            },
+            "method": {
+                "end_year": null,
+                "is_H_gas": "make_Attrib(const)",
+                "max_cap_pipe2store_M_m3_per_d": "Median(max_cap_pipe2store_M_m3_per_d)",
+                "max_cap_store2pipe_M_m3_per_d": "Median(max_cap_store2pipe_M_m3_per_d)",
+                "max_cushionGas_M_m3": "Median(max_cushionGas_M_m3)",
+                "max_power_MW": "Median(max_power_MW)",
+                "max_storage_pressure_bar": "Median(max_storage_pressure_bar)",
+                "max_workingGas_M_m3": "Median(max_workingGas_M_m3)",
+                "min_storage_pressure_bar": "Median(min_storage_pressure_bar)",
+                "num_storage_wells": "Median(num_storage_wells)",
+                "nuts_id_1": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_2": "M_Consumers.add_Nuts_Num()",
+                "nuts_id_3": "raw",
+                "start_year": null
+            }
+        }
+    }
+]

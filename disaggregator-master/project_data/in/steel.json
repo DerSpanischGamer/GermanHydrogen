@@ -1,0 +1,266 @@
+[
+    {
+        "Name": "Hamburg",
+        "Owner": "ArcelorMittal Hamburg",
+        "Process": "Electric",
+        "Production": "1775000",
+        "Latitude": "53.522946",
+        "Longitude": "9.901014"
+    },
+    {
+        "Name": "Bremen",
+        "Owner": "ArcelorMittal Bremen",
+        "Process": "High furnace",
+        "Production": "1775000",
+        "Latitude": "53.136062",
+        "Longitude": "8.688878"
+    },
+    {
+        "Name": "Lingen",
+        "Owner": "Benteler",
+        "Process": "Electric",
+        "Production": "640000",
+        "Latitude": "52.468026",
+        "Longitude": "7.319669"
+    },
+    {
+        "Name": "Gr\u00c3\u00b6ditz",
+        "Owner": "Georgsmarienh\u00c3\u00bctte Holding",
+        "Process": "Electric",
+        "Production": "400000",
+        "Latitude": "51.407337",
+        "Longitude": "13.44391"
+    },
+    {
+        "Name": "Salzgitter",
+        "Owner": "Saltzgitter",
+        "Process": "Electric",
+        "Production": "3375000",
+        "Latitude": "52.160712",
+        "Longitude": "10.414922"
+    },
+    {
+        "Name": "Brandenburg",
+        "Owner": "Brandenburger Elektrostahlwerk",
+        "Process": "Electric",
+        "Production": "1050000",
+        "Latitude": "52.402289",
+        "Longitude": "12.504616"
+    },
+    {
+        "Name": "Hennigsdorf",
+        "Owner": "Hennigsdorfer Elektrostahlwerk",
+        "Process": "Electric",
+        "Production": "1050000",
+        "Latitude": "52.653569",
+        "Longitude": "13.215205"
+    },
+    {
+        "Name": "Eisenh\u00c3\u00bcttenstadt",
+        "Owner": "ArcelorMittal Eisenh\u00c3\u00bcttenstadt",
+        "Process": "High furnace",
+        "Production": "1775000",
+        "Latitude": "52.173491",
+        "Longitude": "14.617972"
+    },
+    {
+        "Name": "Duisburg 1",
+        "Owner": "Thyssenkrupp Steel Europe",
+        "Process": "High furnace",
+        "Production": "11000000",
+        "Latitude": "51.493106",
+        "Longitude": "6.749804"
+    },
+    {
+        "Name": "Duisburg 2",
+        "Owner": "HKM",
+        "Process": "High furnace",
+        "Production": "4520000",
+        "Latitude": "51.366639",
+        "Longitude": "6.70613"
+    },
+    {
+        "Name": "Duisburg 3",
+        "Owner": "ArcelorMittal Duisburg",
+        "Process": "High furnace",
+        "Production": "1775000",
+        "Latitude": "51.463588",
+        "Longitude": "6.74645"
+    },
+    {
+        "Name": "Siegen 1",
+        "Owner": "Deutsche Edelstahlwerke",
+        "Process": "Electric",
+        "Production": "200000",
+        "Latitude": "50.912927",
+        "Longitude": "8.015636"
+    },
+    {
+        "Name": "Siegen 2",
+        "Owner": "BGH Edelstahl",
+        "Process": "Electric",
+        "Production": "42500",
+        "Latitude": "50.909342",
+        "Longitude": "8.062067"
+    },
+    {
+        "Name": "Wetzlar",
+        "Owner": "Buderus Edelstahl",
+        "Process": "Electric",
+        "Production": "350000",
+        "Latitude": "50.574341",
+        "Longitude": "8.485456"
+    },
+    {
+        "Name": "Unterwellenborn",
+        "Owner": "Stahlwerk Th\u00c3\u00bcrigen",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Riesa",
+        "Owner": "ESF Elbe-Stahlwerke Feralpi",
+        "Process": "Electric",
+        "Production": "1000000",
+        "Latitude": "51.313226",
+        "Longitude": "13.277542"
+    },
+    {
+        "Name": "Freital",
+        "Owner": "BGH Edelstahl",
+        "Process": "Electric",
+        "Production": "42500",
+        "Latitude": "50.995882",
+        "Longitude": "13.640486"
+    },
+    {
+        "Name": "Dillingen",
+        "Owner": "Dillinger H\u00c3\u00bcttenwerke",
+        "Process": "High furnace",
+        "Production": "2280000",
+        "Latitude": "49.357434",
+        "Longitude": "6.745811"
+    },
+    {
+        "Name": "V\u00c3\u00b6lklingen",
+        "Owner": "Saarstahl",
+        "Process": "High furnace",
+        "Production": "2640000",
+        "Latitude": "49.2442",
+        "Longitude": "6.852506"
+    },
+    {
+        "Name": "Kehl",
+        "Owner": "Badische Stahlwerke",
+        "Process": "Electric",
+        "Production": "2100000",
+        "Latitude": "48.598572",
+        "Longitude": "7.822335"
+    },
+    {
+        "Name": "Herbertshofen",
+        "Owner": "Lech-Stahlwerke",
+        "Process": "Electric",
+        "Production": "1130000",
+        "Latitude": "48.517074",
+        "Longitude": "10.851322"
+    },
+    {
+        "Name": "Hanau",
+        "Owner": "\u00c3\u0153brige Stahlstandorte",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Georgsmarienh\u00c3\u00bctte",
+        "Owner": "Georgsmarienh\u00c3\u00bctte Holding",
+        "Process": "Electric",
+        "Production": "400000",
+        "Latitude": "52.207752",
+        "Longitude": "8.053884"
+    },
+    {
+        "Name": "Bous",
+        "Owner": "Georgsmarienh\u00c3\u00bctte Holding",
+        "Process": "Electric",
+        "Production": "400000",
+        "Latitude": "49.277337",
+        "Longitude": "6.786469"
+    },
+    {
+        "Name": "Wiehl",
+        "Owner": "\u00c3\u0153brige Stahlstandorte",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Engelskirchen",
+        "Owner": "\u00c3\u0153brige Stahlstandorte",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Witten 1",
+        "Owner": "Deutsche Edelstahlwerke",
+        "Process": "Electric",
+        "Production": "200000",
+        "Latitude": "51.433212",
+        "Longitude": "7.327031"
+    },
+    {
+        "Name": "Witten 2",
+        "Owner": "\u00c3\u0153brige Stahlstandorte",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Peine",
+        "Owner": "Salzgitter",
+        "Process": "Electric",
+        "Production": "3375000",
+        "Latitude": "52.315364",
+        "Longitude": "10.24885"
+    },
+    {
+        "Name": "Werdohl",
+        "Owner": "\u00c3\u0153brige Stahlstandorte",
+        "Process": "Electric",
+        "Production": "",
+        "Latitude": "",
+        "Longitude": ""
+    },
+    {
+        "Name": "Krefeld",
+        "Owner": "Deutsche Edelstahlwerke",
+        "Process": "Electric",
+        "Production": "200000",
+        "Latitude": "51.303908",
+        "Longitude": "6.544874"
+    },
+    {
+        "Name": "Hagen",
+        "Owner": "Deutsche Edelstahlwerke",
+        "Process": "Electric",
+        "Production": "200000",
+        "Latitude": "51.360307",
+        "Longitude": "7.458448"
+    },
+    {
+        "Name": "Hattingen",
+        "Owner": "Deutsche Edelstahlwerke",
+        "Process": "Electric",
+        "Production": "200000",
+        "Latitude": "51.416409",
+        "Longitude": "7.193076"
+    }
+]

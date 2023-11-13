@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Piesteritz Plant 1",
+        "Owner": "SKW",
+        "Production": "600000",
+        "Latitude": "51.873792",
+        "Longitude": "12.573746"
+    },
+    {
+        "Name": "Piesteritz Plant 2",
+        "Owner": "SKW",
+        "Production": "600000",
+        "Latitude": "51.877568",
+        "Longitude": "12.588509"
+    },
+    {
+        "Name": "Ludwigshafen Plant 3",
+        "Owner": "BASF",
+        "Production": "400000",
+        "Latitude": "49.50474",
+        "Longitude": "8.429374"
+    },
+    {
+        "Name": "Ludwigshafen Plant 4",
+        "Owner": "BASF",
+        "Production": "400000",
+        "Latitude": "49.525339",
+        "Longitude": "8.443207"
+    },
+    {
+        "Name": "Koeln",
+        "Owner": "INEOS",
+        "Production": "250000",
+        "Latitude": "51.073636",
+        "Longitude": "6.843593"
+    },
+    {
+        "Name": "Brunsbuettel",
+        "Owner": "YARA",
+        "Production": "750000",
+        "Latitude": "53.910756",
+        "Longitude": "9.210892"
+    }
+]

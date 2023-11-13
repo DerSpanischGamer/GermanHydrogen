@@ -1,0 +1,146 @@
+[
+    {
+        "Name": "Schwedt",
+        "Owner": "PCK Raffinerie GmbH",
+        "Product": "Crude",
+        "Production": "11600000",
+        "Latitude": "53.93079",
+        "Longitude": "14.23071"
+    },
+    {
+        "Name": "Karlsruhe",
+        "Owner": "MiRo Mineraloelraffinerie Oberrhein GmbH & Co.",
+        "Product": "Crude",
+        "Production": "14900000",
+        "Latitude": "49.55892",
+        "Longitude": "8.325426"
+    },
+    {
+        "Name": "Bayern",
+        "Owner": "Bayernoil-Raffineriegesellschaft mbH",
+        "Product": "Crude",
+        "Production": "10300000",
+        "Latitude": "48.767031",
+        "Longitude": "11.598385"
+    },
+    {
+        "Name": "BP Lingen",
+        "Owner": "BP",
+        "Product": "Crude",
+        "Production": "4700000",
+        "Latitude": "52.560432",
+        "Longitude": "7.307695"
+    },
+    {
+        "Name": "K\u00c3\u00b6sching",
+        "Owner": "Gunvor Refinery Ingolstadt GmbH",
+        "Product": "Crude",
+        "Production": "5000000",
+        "Latitude": "48.791241",
+        "Longitude": "11.476996"
+    },
+    {
+        "Name": "Wilhelmshaven",
+        "Owner": "HES Wilhelmshaven Tank Terminal GmbH",
+        "Product": "Crude",
+        "Production": "3000000",
+        "Latitude": "53.61286",
+        "Longitude": "8.99983"
+    },
+    {
+        "Name": "Salzbergen",
+        "Owner": "H & R Chemical-Pharmaceutical Specialties GmbH",
+        "Product": "Lubricating oil",
+        "Production": "220000",
+        "Latitude": "52.316957",
+        "Longitude": "7.347908"
+    },
+    {
+        "Name": "Hamburg",
+        "Owner": "H & R Oelwerke Schindler",
+        "Product": "Base oil",
+        "Production": "240000",
+        "Latitude": "53.513608",
+        "Longitude": "9.951959"
+    },
+    {
+        "Name": "Hamburg2",
+        "Owner": "Holborn Europa Refinery GmbH",
+        "Product": "Crude",
+        "Production": "5150000",
+        "Latitude": "53.476883",
+        "Longitude": "9.952667"
+    },
+    {
+        "Name": "Webau",
+        "Owner": "Mitteldeutsches Bitumenwerk GmbH",
+        "Product": "Bitumen",
+        "Production": "195000",
+        "Latitude": "51.182071",
+        "Longitude": "12.66997"
+    },
+    {
+        "Name": "Hamburg3",
+        "Owner": "Nynas GmbH & Co. KG",
+        "Product": "Crude",
+        "Production": "1825000",
+        "Latitude": "53.482429",
+        "Longitude": "9.97276"
+    },
+    {
+        "Name": "Burghausen",
+        "Owner": "OMV Deutschland Operations GmbH & Co. KG",
+        "Product": "Crude",
+        "Production": "3700000",
+        "Latitude": "48.186881",
+        "Longitude": "12.843028"
+    },
+    {
+        "Name": "Heide",
+        "Owner": "Refinery Heide GmbH",
+        "Product": "Crude",
+        "Production": "4200000",
+        "Latitude": "54.157761",
+        "Longitude": "9.72925"
+    },
+    {
+        "Name": "Gelsenkirchen",
+        "Owner": "Ruhr Oil GmbH",
+        "Product": "Crude",
+        "Production": "12800000",
+        "Latitude": "51.598808",
+        "Longitude": "7.30731"
+    },
+    {
+        "Name": "Wesseling South",
+        "Owner": "Shell Energy and Chemicals Park Rhineland",
+        "Product": "Crude",
+        "Production": "7300000",
+        "Latitude": "50.818379",
+        "Longitude": "7.6485"
+    },
+    {
+        "Name": "Wesseling North",
+        "Owner": "Shell Energy and Chemicals Park Rhineland",
+        "Product": "Crude",
+        "Production": "9300000",
+        "Latitude": "50.861539",
+        "Longitude": "6.98554"
+    },
+    {
+        "Name": "Spergau",
+        "Owner": "TotalEnergies Raffinerie Mitteldeutschland GmbH",
+        "Product": "Crude",
+        "Production": "12000000",
+        "Latitude": "51.289554",
+        "Longitude": "11.99572"
+    },
+    {
+        "Name": "Brunsb\u00c3\u00bcttel",
+        "Owner": "TotalEnergies Bitumen Deutschland GmbH & Co.",
+        "Product": "Bitumen",
+        "Production": "570000",
+        "Latitude": "53.911833",
+        "Longitude": "9.190672"
+    }
+]
