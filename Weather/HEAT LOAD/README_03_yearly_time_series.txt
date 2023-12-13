@@ -1,0 +1,3 @@
+The folder "01_time_series_based_on_long_term_average_temperatures" contains the heat load time series for all administrative districts, based on long-term monthly average temperatures at the closest weather station to the administrative district.
+
+The folder "02_time_series_based_on_a_specific_year" contains the heat load time series for the year 2011 for the city of Berlin. Furthermore information is given in that folder, how to generate the heat load time series for other administrative districts and arbitrary ambient temperature series. 
